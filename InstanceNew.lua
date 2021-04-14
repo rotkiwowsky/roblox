@@ -10,7 +10,7 @@ buttonClickDetector.MouseClick:Connect(function()
 	part.TopSurface = 0
 	part.BottomSurface = 0
 	
-	part.Size = Vector3.new()
+	part.Size = Vector3.new(2,2,2)
 
 part.Parent = game.Workspace
 	
